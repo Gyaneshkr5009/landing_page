@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+#main {
+  width: 100%;
+  height: 100%;
+}
+/* top */
+.top {
+  display: flex;
+  width: 100%;
+  min-height: 8vh;
+  background-color: rgb(59, 59, 115);
+}
+/* header part */
+.first {
+  display: flex;
+  align-items: center;
+  width: 6%;
+  min-height: inherit;
+  background-color: #232f3e;
+}
+#first_icon i {
+  width: 100%;
+  min-height: inherit;
+  padding: 0 2vw;
+}
+.second {
+  width: 16%;
+  min-height: inherit;
+  background-color: black;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(gyanesh.png);
+}
+.third {
+  width: 78%;
+  min-height: inherit;
+  background-color: purple;
+  background-size: cover;
+}
+/* third */
+.topnav {
+  min-height: inherit;
+  overflow: hidden;
+  background-color: #232f3e;
+}
+.topnav a {
+  min-height: inherit;
+  position: relative;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnov i {
+  width: 100%;
+  min-height: inherit;
+}
+
+/* hover */
+.topnav a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196f3;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type="text"] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* middle part */
+.middle {
+  width: 100%;
+  min-height: 52vh;
+  background-color: red;
+  background-image: url(BOATS-Parent-Company-Files-For-Rs.2000-Crore-IPO.webp);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#overlay {
+  position: relative;
+  width: 100%;
+  min-height: inherit;
+  background-color: rgba(0, 0, 0, 0.097);
+}
+#text {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 0 10vw;
+  bottom: 10%;
+  position: absolute;
+  width: 100%;
+  color: rgba(245, 245, 245, 0.755);
+}
+#textright {
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  display: flex;
+}
+#textright i {
+  color: rgba(245, 245, 245, 0.755);
+}
+#textright p {
+  font-size: 12px;
+  width: 40%;
+  color: rgba(245, 245, 245, 0.755);
+}
+
+/* bottom part */
+.bottom {
+  display: flex;
+  width: 100%;
+  min-height: 40vh;
+  background-color: blue;
+}
+.bone {
+  display: flex;
+  width: 25%;
+  min-height: inherit;
+  background-color: pink;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(photo-1610945415295-d9bbf067e59c.avif);
+}
+.bone a {
+  font-size: larger;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  min-height: inherit;
+  color: rgba(245, 245, 245, 0.755);
+}
+.btwo {
+  display: flex;
+  width: 25%;
+  min-height: inherit;
+  background-color: orange;
+  background-image: url(WM.webp);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.btwo a {
+  font-size: larger;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  min-height: inherit;
+  color: rgba(0, 0, 0, 0.799);
+}
+.bthree {
+  display: flex;
+  width: 25%;
+  min-height: inherit;
+  background-color: blueviolet;
+  background-image: url(jens-kreuter-ngMtsE5r9eI-unsplash.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bthree a {
+  font-size: larger;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  min-height: inherit;
+  color: rgba(0, 0, 0, 0.799);
+}
+.bfour {
+  display: flex;
+  width: 25%;
+  min-height: inherit;
+  background-color: yellowgreen;
+  background-image: url(dell-yNvVnPcurD8-unsplash.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bfour a {
+  font-size: larger;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  min-height: inherit;
+  color: rgba(0, 0, 0, 0.799);
+}
+
+.overlay {
+  width: 100%;
+  min-height: inherit;
+  background-color: brown;
+}
+@media (max-width: 500px) {
+  .top {
+    flex-direction: column;
+  }
+  .first {
+    width: 100%;
+  }
+  .second {
+    width: 100%;
+  }
+  .third {
+    width: 100%;
+  }
+  #overlay #text {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #text h1 {
+    font-size: 10vw;
+  }
+  #text h2 {
+    font-size: 10vw;
+  }
+  #overlay #text #textright {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  #overlay #text #textright p {
+    width: initial;
+    margin-top: 20px;
+  }
+  #overlay #text #textright #icons {
+    margin-top: 30px;
+  }
+  .bottom {
+    flex-direction: column;
+  }
+  .bone {
+    width: 100%;
+  }
+  .btwo {
+    width: 100%;
+  }
+  .bthree {
+    width: 100%;
+  }
+  .bfour {
+    width: 100%;
+  }
+  .topnav a,
+  .topnav input[type="text"] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type="text"] {
+    border: 1px solid #ccc;
+  }
+}
